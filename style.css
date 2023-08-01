@@ -1,0 +1,492 @@
+* {
+	box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+main
+{
+	min-height: 100vh!important;
+	  background:rgb(245,245,245);
+	display: flex!important;
+	align-items: center!important;
+	justify-content: center!important;
+}
+.content2
+{
+	
+	background:#e2e2e2!important;
+	
+	margin-top: 55px;
+	margin-left: 18%;
+}
+.glass
+{
+	
+	min-height: 60vh;
+	width: 55%;
+	 border: 1px solid #9C9C9C;
+	 box-shadow: -5px 5px 20px rgba(0,0,0,0.3)!important; 
+  background-color: white;
+	display: flex!important;
+	justify-content: center!important;
+	
+	
+	
+}
+.glass2
+{
+	min-height: 60vh;
+	width: 55%;
+	background:rgb(255,255,255);
+	border: 1px solid #9C9C9C;
+	overflow:auto;
+	box-shadow: -5px 5px 20px rgba(0,0,0,0.3)!important;
+	
+}
+.register
+{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center!important;
+	align-items: center;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+.register2
+{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center!important;
+	align-items: center;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	
+}
+.emp_reg
+{
+	min-height: 60vh;
+	width: 55%;
+	background:rgb(255,255,255);
+	border: 1px solid #9C9C9C;
+	overflow:auto;
+	box-shadow: -5px 5px 20px rgba(0,0,0,0.3)!important; 
+	
+	
+	
+}
+.emp_reg2
+{
+	min-height: 60vh;
+	width: 65%;
+	background:rgb(255,255,255);
+	border: 1px solid #9C9C9C;
+	overflow:auto;
+	box-shadow: -5px 5px 20px rgba(0,0,0,0.3)!important; 
+	
+	
+	
+	margin:auto;
+	
+}
+.login_page
+{
+	min-height: 60vh;
+	width: 55%;
+	background:rgb(255,255,255);
+	border: 1px solid #9C9C9C;
+	overflow:auto;
+	box-shadow: -5px 5px 20px rgba(0,0,0,0.3)!important; 
+	
+	display: flex;
+	justify-content: center!important;
+	margin: auto;
+	
+	
+	
+}
+.approve_table_leave
+{
+	min-height: 60vh;
+	width: 98%;
+	background:rgb(255,255,255);
+	border: 1px solid #9C9C9C;
+	overflow:auto;
+	box-shadow: -5px 5px 20px rgba(0,0,0,0.3)!important; 
+	
+	
+	
+	margin:auto;
+	
+	
+}
+
+.tblbck
+{
+	min-height: 60vh;
+	width: 55%;
+	background: linear-gradient(to right top, rgba(255,255,255,0.9),rgba(255,255,255,0.2));
+	border-radius: 10px;
+	box-shadow: -25px 25px 20px rgba(0,0,0,0.3)!important; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1366px;
+}
+/* Add padding to containers */
+.container {
+	margin-left: 440px;
+	margin-right: 440px;
+}
+.card {
+   color: white;
+   width: 400px;
+  box-shadow: -25px 25px 20px rgba(0,0,0,0.8)!important;
+  border-radius: 20px!important;
+  overflow: hidden!important;
+   margin-top: 120px!important;
+  
+}
+.inputContainer i {
+   position: absolute;
+}
+.inputContainer {
+   width: 100%!important;
+   margin-bottom: 10px!important;
+  
+}
+.icon {
+   margin-top:24px!important;
+   margin-left:480px!important;
+   color: rgb(49, 0, 128)!important;
+   width: 10px!important;
+   margin-bottom:10px!important;
+   text-align: left!important;
+   
+}
+
+.card-body
+{
+	
+	background: white;
+	
+}
+.error {
+	color: red;
+	
+}
+
+.fileerror {
+	color: red;
+	position: fixed;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+background-color: white!important;
+width: 500px!important;
+margin-top: 20px!important;
+height: 25px!important;
+ padding: 10px!important;
+ border-radius: 0px!important;
+ border: solid;
+ border-width: 0.1px;
+ border-color: rgba(0,0,0,0.1);
+}
+
+#comboboxState, #comboboxCity, #comboboxCountry,#comboboxStatep, #comboboxCityp{
+	
+	
+	margin-top:15px!important;
+	
+	
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	background:white;
+	outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+	background: #2E8B57	;
+	height:40px;
+	color: white;
+	
+	margin: 20px 0;
+	
+	border: thin;
+	border-style:solid;
+	border-color:black;
+	cursor: pointer;
+	width: 30%;
+	border-radius: 5px;
+}
+
+.addskill {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%,
+		rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+	color: white;
+	padding: 8px 10px;
+	margin: 4px 0;
+	border: none;
+	cursor: pointer;
+	width: 25%;
+	opacity: 0.9;
+}
+
+.registerbtn:hover {
+	opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+	color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+	text-align: center;
+}
+
+#pin_code {
+	height: 15px;
+}
+
+.step-row {
+	height: 40px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 -1px 5px -1px #000;
+	position: relative;
+	background: #009688;
+}
+
+.step-col {
+	width: 170px;
+	text-align: center;
+	color: white;
+	position: relative;
+	background: #009688;
+}
+.step-colb {
+	width: 170px;
+	text-align: center;
+	color: white;
+	position: relative;
+	background: #009688;
+}
+.step-col1 {
+	width: 170px;
+	text-align: center;
+	color: white;
+	position: relative;
+	background: white;
+}
+#progress {
+	position: absolute;
+	height: 100%;
+	width: 170px;
+	background: white;
+}
+
+.step-col2 {
+	width: 170px;
+	text-align: center;
+	color: white;
+	position: relative;
+	background: white;
+}
+
+
+#progress2 {
+	position: absolute;
+	height: 100%;
+	width: 170px;
+	background: white;
+	margin-left: 170px;
+}
+
+
+.step-col3 {
+	width: 170px;
+	text-align: center;
+	color: white;
+	position: relative;
+	background: white;
+}
+.step-colc {
+	width: 170px;
+	text-align: center;
+	color: white;
+	position: relative;
+	background: #009688;
+}
+.step-cold {
+	width: 170px;
+	text-align: center;
+	color: white;
+	position: relative;
+	background: #009688;
+}
+
+
+.step-col4 {
+	width: 170px;
+	text-align: center;
+	color: white;
+	position: relative;
+	background: white;
+}
+#progress3 {
+	position: absolute;
+	height: 100%;
+	width: 170px;
+	background: white;
+	margin-left: 340px;
+}
+
+
+
+#progress4 {
+	position: absolute;
+	height: 100%;
+	width: 170px;
+	background: white;
+	margin-left: 510px;
+}
+
+
+
+#con {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#lgnbtn {
+	background: #000000;
+	width: 220px;
+	height: 40px;
+	color: white;
+}
+
+#regbtn {
+	background: #000000;
+	width: 220px;
+	height: 40px;
+	color: white;
+}
+
+
+/*email div*/
+
+
+.txteml1
+{
+	
+	
+	margin-left:113px;
+	width: 260px!important;
+}
+.txteml4
+{
+	
+	
+	margin-left:38px!important;
+	width: 260px!important;
+}
+.txteml2
+{
+	
+	
+	margin-left:82px;
+	width: 260px!important;
+}
+.txteml3
+{
+	
+	
+	margin:17px;
+	width: 260px!important;
+}
+
+/*User info */
+
+
+
+
+.spn
+{
+	display: block;
+}
+select
+{
+	height: 25px;
+	border-radius: 8px;
+	background: white!important;
+}
+
+#first_name,#last_name,#middle_name,#phone,#eml
+{
+	width: 200px;
+	height: 15px;
+}
+
+
+
+.mdetail
+{
+	margin-left:132px;
+}
+.qname
+{
+	margin-left:45px;
+}
+.qdesc
+{
+	margin-left:5px;
+}
+.deleter
+{
+	
+	width: 150px;
+	
+	margin-left: 20px;
+}
+
+/*skill div*/
+
+
+#addskill
+{
+	background: black;
+	color: white;
+	width: 150px!important;
+	height: 25px!important;
+	margin-left: 10px;
+}
+
+/*leave page*/
+
+#leave_date
+{
+	margin-top: 40px!important;
+	margin-left: 80px!important;
+}
